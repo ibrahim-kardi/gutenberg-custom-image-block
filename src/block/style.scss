@@ -1,0 +1,41 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ */
+
+.wp-block-cgb-block-custom-image-block  {
+  background: $red;
+  border: 0.2rem solid $black;
+  color: $black;
+  margin: 0 auto;
+  max-width: 740px;
+  padding: 2rem;
+}
+// .wp-block-webtop-imageselectinspector{
+//   min-height: 420px;
+// }
+
+.comparison-slider-container {
+  position: relative;
+  font-size: 0;
+  -ms-touch-action: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+.comparison-slider-container img {
+  width: 100%;
+  height: auto;
+}
+.comparison-slide-after {
+  background-image: url(https://immobilien.immo-circle.at/media/bilder/nacher.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+}
+.comparison-slider-container:hover {
+  cursor: col-resize;
+}
